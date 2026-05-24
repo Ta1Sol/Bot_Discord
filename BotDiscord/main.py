@@ -50,5 +50,3 @@ async def falar(interact:discord.Interaction, texto:str):
 @bot.tree.command()
 async def selecionar_membro(interact:discord.Interaction, membro:discord.Member):
     await interact.response.send_message(f"Vc selecionou o usuario{membro.mention}")
-
-bot.run("MTUwNzQ1MTc3Mzc0MzUzNDIwMA.GrEcc2.Fp6pt2wYV5hxE58qtee9OC0mPxIAUA91Wyx6NQ")
